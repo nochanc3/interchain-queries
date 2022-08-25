@@ -1,9 +1,9 @@
 {                                                                                                                    
-"global":
-    "memo": "Nochance | MMS#6409_ICQ_TEST"
-default_chain: stride-testnet
-chains:
-  gaia-testnet:
+    "global":
+     "memo": "Nochance | MMS#6409_ICQ_TEST"
+    default_chain: stride-testnet
+    chains:
+    gaia-testnet:
     key: wallet
     chain-id: GAIA
     rpc-addr: http://10.1.1.218:57121
@@ -18,7 +18,7 @@ chains:
     block-timeout: ""
     output-format: json
     sign-mode: direct
-  stride-testnet:
+    stride-testnet:
     key: wallet
     chain-id: STRIDE-TESTNET-4
     rpc-addr: http://10.1.1.205:57152
@@ -33,5 +33,5 @@ chains:
     block-timeout: ""
     output-format: json
     sign-mode: direct
-cl: {}
+    cl: {}
 }
