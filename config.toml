@@ -1,4 +1,4 @@
-                                                                                                                    
+{                                                                                                                    
 "global":
     "memo": "Nochance | MMS#6409_ICQ_TEST"
 default_chain: stride-testnet
@@ -34,3 +34,4 @@ chains:
     output-format: json
     sign-mode: direct
 cl: {}
+}
