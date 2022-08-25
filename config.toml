@@ -1,13 +1,10 @@
-{                                                                                                                    
-    "global":
-     "memo": "Nochance | MMS#6409_ICQ_TEST"
-    default_chain: stride-testnet
-    chains:
-    gaia-testnet:
-    key: wallet
+default_chain: stride-testnet
+chains:
+  gaia-testnet:
+    key: 1 
     chain-id: GAIA
-    rpc-addr: http://10.1.1.218:57121
-    grpc-addr: http://10.1.1.218:59121
+    rpc-addr: http://127.0.0.1:23657
+    grpc-addr: http://127.0.0.1:23090
     account-prefix: cosmos
     keyring-backend: test
     gas-adjustment: 1.2
@@ -18,11 +15,11 @@
     block-timeout: ""
     output-format: json
     sign-mode: direct
-    stride-testnet:
-    key: wallet
+  stride-testnet:
+    key: 1
     chain-id: STRIDE-TESTNET-4
-    rpc-addr: http://10.1.1.205:57152
-    grpc-addr: http://10.1.1.205:59152
+    rpc-addr: http://127.0.0.1:16657
+    grpc-addr: http://127.0.0.1:16090
     account-prefix: stride
     keyring-backend: test
     gas-adjustment: 1.2
@@ -33,5 +30,4 @@
     block-timeout: ""
     output-format: json
     sign-mode: direct
-    cl: {}
-}
+cl: {}
