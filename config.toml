@@ -1,4 +1,4 @@
-global:
+"global:
     memo: Nochance | MMS#6409_ICQ_TEST
 default_chain: stride-testnet
 chains:
@@ -32,4 +32,4 @@ chains:
     block-timeout: ""
     output-format: json
     sign-mode: direct
-cl: {}
+cl: {}"
