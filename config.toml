@@ -1,3 +1,5 @@
+"global":
+        "memo": "Nochance | MMS#6409_ICQ_TEST",
 default_chain: stride-testnet
 chains:
   gaia-testnet:
